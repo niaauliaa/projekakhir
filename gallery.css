@@ -1,0 +1,40 @@
+body{
+    background:#fff ;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0px;
+    grid-gap:30px;
+}
+
+
+img{
+    object-fit: cover;
+}
+
+.grid > img{
+    border-radius: 15px;
+}
+
+.grid > a img{
+    border-radius: 15px;
+    width: 285px;
+}
+
+.grid > a:hover{
+    transform: scale(1.1)
+}
+
+@media (max-width :1000px)  {
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

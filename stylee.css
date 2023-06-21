@@ -1,0 +1,401 @@
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    
+}
+
+
+nav ul{
+    display:flex ;
+    list-style-type: none;
+    gap: 1rem; 
+}
+
+nav ul li img{
+    width: 55px;
+    margin-right: 10px;
+    list-style: none;
+    padding-right: 0,5rem 0,5rem; 
+    display: flex;
+}
+
+
+nav .logo{
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 400px;
+    padding: 1rem 2rem;
+    text-align: left;  
+    height: 25px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding:7px 5px;
+    transition:all;
+    transition-duration: 300ms;
+    border-bottom: 2px solid rgba(128, 128, 128, 0);
+    font-weight: bold; 
+   
+}
+
+nav ul li a:hover{
+    color:#000000ce;
+    border-bottom: 2px solid #000208 ;   
+}
+
+.nav ul li:hover::after{
+    width:100%
+}
+.text{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 5%;
+    text-align: right;
+    margin-right: 902px;
+    font-size: 110%;
+}
+
+.content1{
+    padding-right: 80px;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.text1{
+    color: #181f1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 170%;
+    padding-top: 2px;
+    text-align: right;
+    margin-right: 840px;
+}
+
+.text2{
+    color: #181f1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 170%; 
+    text-align: right;
+    margin-right: 715px;
+    
+}
+
+.text3{
+    color: #181f1c;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    line-height: 170%; 
+    text-align: right;
+    margin-right:734px;
+}
+
+span{
+    color: rgb(32, 32, 236);
+}
+
+button{
+    background-color: rgb(5, 55, 131);
+    color: white;
+    padding: 9px 9px;
+    border-radius: 5px;
+    margin-right: 41%; 
+    margin-top: 1%;
+}   
+
+.content1 img{
+    height: 400px;
+    width: 400px;
+    float: right;
+    padding-right:20px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.content2{
+    padding-left: 100px;
+    padding-top: 110px;
+    line-height: normal;
+    border-radius: 15px;
+    
+}
+
+.kotak {
+    background-color: #fff;
+    width: 1100px;
+    height:340PX;
+    border-radius:10px;
+    top:50%;
+    left:30%;
+    padding:10px;
+    box-shadow: 0 0 10px rgb(197, 197, 197);
+}
+
+.kotak p{
+    text-align: center;
+    color: #000208;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.total {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:20px;
+    width: 80%;
+    height:30px;
+    margin-inline-start: 90px;
+    line-height: 17%;
+    font-size: 17px;
+    color:grey;
+}
+
+.progress{
+    background-color: #1F3984;
+    width: 25%;
+    height:35px;
+    border-radius: 5px;
+}
+
+.progres1{
+    background-color: #DDE6ED;
+    width: 80%;
+    height:35px;
+    border-radius: 5px;
+}
+
+.progress p{
+  padding-left: 900px;
+  color:#1F3984;
+}
+
+.progress2{
+    background-color: #1F3984;
+    width: 125%;
+    height:62px;  
+    color: #fff;
+    border-radius: 5px;
+}
+
+.progress2 span{
+    color: yellow;
+}
+ 
+.progress2 .textmarque{
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content3{
+    padding-left: 2px;
+    padding-top: 90px;
+    line-height: normal;
+    border-radius: 15px;
+}
+
+.banner{
+    background-color:rgba(128, 128, 128, 0.199);
+    width: 1100px;
+    height:299PX;
+    border-radius:10px;
+    top:50%;
+    left:30%;
+    right:50px;
+    padding:21px;
+}
+
+.bannertext{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 140px;
+    font-weight: bold;
+    color: grey;
+    font-size: 160%;
+}
+
+.content4 h1{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 45px;
+   padding-top: 5%;
+}
+
+.content4 p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-bottom: 5%;
+}
+
+
+.container1 {
+    display: flex;
+}
+
+.card1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 280px;
+    background-color:#fff;
+    margin: 24px;
+    padding: 20px;
+    box-shadow: -1px -2px 8px 3px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -1px -2px 8px 3px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -1px -2px 8px 3px rgba(0, 0, 0, 0.23);
+    border-radius: 12px;
+    text-align: left;
+    justify-content: center;
+}
+
+.card1 {
+   margin-top: 2%; 
+    padding: 30px;
+  
+    
+}
+
+.icon img {
+    width: 90px;
+    height: auto;
+    margin-right: 890px;
+    text-align: left;
+}
+
+.card1 .container1 .icon {
+    color: black;
+}
+
+.card1 p {
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tangan img{
+    width:450px;
+    height:733px;
+    margin-right: 110px;
+    margin-top: 370px;
+
+}
+
+.tangan{
+    position:absolute;
+    top:0;
+    right:0; 
+    padding-top: 108%;
+}
+
+.content5 h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 45px;
+    padding-top: 5%;
+}
+     
+.content5 p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-bottom: 5%;
+}
+
+.container1 {
+    display: flex;
+}
+
+.card2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 470px;
+    height: 165px;
+    background-color:#fff;
+    margin: 24px;
+    padding: 20px;
+    box-shadow: -1px -2px 8px 3px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -1px -2px 8px 3px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -1px -2px 8px 3px rgba(0, 0, 0, 0.23);
+    border-radius: 12px;
+    text-align: left;
+    justify-content: center;
+}
+
+.card2 {
+    margin-top: 1%; 
+    padding: 25px;
+}
+
+.card2 .icon{
+   margin-bottom: 1% ;
+   font-size: 80%;
+   color:#1F3984;
+
+}
+
+.card2 h2{
+   font-size:150% ;
+}
+
+.card2 p {
+    color: gray;
+    font-size: 19px;
+    padding:1px 1px;
+    margin-bottom:30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content6 h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 45px;
+    padding-top: 5%;
+}
+     
+.content6 p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-bottom: 5%;
+}
+
+.content7 button{
+    background-color: rgb(5, 55, 131);
+    color: white;
+    padding: 9px 9px;
+    border-radius: 5px;
+    margin-right: 41%; 
+    margin-top: 1%;
+
+}
+
+
+.content8 h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 45px;
+    padding-top: 5%;
+}
+     
+.content8 p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-bottom: 5%;
+}
+
+
+

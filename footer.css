@@ -1,0 +1,155 @@
+  footer{
+    background: #001E42;
+    min-height: 100px;
+    padding: 4% 7.5%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 40px;
+	Position:relative;
+    Left: -110px;
+	
+	
+	
+  }
+  
+  .footer-row{
+      display: flex;
+      flex-wrap: wrap;
+       justify-content: space-between;
+	
+  }
+  
+  .footer ul li{
+      list-style: disc;
+    color: #FFFFFF;
+  }
+  
+  .footer-content{
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-col ul li a{
+    max-width: auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-links{
+    display: flex;
+  }
+  
+  .footer-links li{
+    margin-right: 10px;
+    list-style: none !important;
+  }
+  
+  .footer-col:nth-child(1){
+     width: 240px;
+  }
+  
+  .footer-col h4{
+      font-size: 16px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      font-weight: 500;
+      position: relative;
+  }
+  
+  .footer hr{
+    margin: 20px 0;
+    opacity: 50%;
+  }
+  
+  .footer-col p{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 10px;
+  }
+  
+  .footer-form{
+    width: 25%;
+  }
+  
+  .footer-form .footer-col{
+    width: 100%;
+  }
+  
+  .footer-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .footer-form input, textarea{
+    width: 100%;
+    padding: 12px;
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-radius: 5px !important;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+  
+  textarea{
+    height:200px;
+  }
+  
+  .footer-form button{
+    background-color: #FFF500;
+    color: #1F3984;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    margin: 0;
+  }
+  
+  .footer-form button:hover{
+    background-color: #d2cb00;
+  }
+  
+  .footer-form input:nth-child(4){
+    height: 150px !important;
+  }
+  
+  .footer-col .social-links a:hover{
+      color: #24262b;
+      background-color: #ffffff;
+  }
+  
+  .footer-brand{
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-brand h3{
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+  }
+  
+  .footer-brand img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .col p{
+	color:#f0f0ea;
+	
+  }
